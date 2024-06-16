@@ -1,5 +1,3 @@
-import react from 'react'
-
 import React, { Component } from 'react';
 
 import {Cards,Charts,CountryPicker} from './components'
@@ -51,7 +49,7 @@ class App extends Component {
     }
      
     render() {
-        const { data, country, darkMode,setDarkMode } = this.state
+        const { data, country, darkMode } = this.state
 
         const theme = createMuiTheme({
             palette: {
